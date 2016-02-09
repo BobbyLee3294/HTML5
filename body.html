@@ -1,0 +1,27 @@
+<!--every HTML page has a body, go figure!-->
+<style>
+	body {
+		<!--Just like other elements like headers, they can inhert styles as well -->
+		background-color: #848484;
+		font-family: Sarif;
+		color: green;
+	}
+	#orange-text {
+		color: orange;
+	}
+	.pink-text {
+	<!--using the keyword !important will make that element the one element to rule them all-->
+		color: pink !important;
+	}
+	<!--you can override other classes by declaring them later in the style section-->
+	.blue-text {
+		color: blue;
+	}
+	<!--remember id attributes? they can also be used to override and style-->
+	<!--declare id attributes with the hash symbol-->
+	}
+</style>
+<!--you can override the body's declaration by giving h1 another class-->
+<!--it matters not which order the classes are listed in the element-->
+<!--in-line style will override your style section-->
+<h1 style= "color: white" id= "orange-text" class= "blue-text pink-text">Hello World!</h1>
